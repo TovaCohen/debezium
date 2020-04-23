@@ -12,7 +12,8 @@ The following image shows the architecture of a CDC pipeline based on Debezium:
 image:debezium-architecture.png[Debezium Architecture]
 
 Kafka Connect is operated as a separate service besides the Kafka broker itself.
-The Debezium connectors for MySQL and Postgres are deployed to capture the changes out of these two databases.
+The Debezium connectors for MySQL and Postgres are deployed to 
+capture the changes out of these two databases.
 For this purpose, the two connectors establish a connection to the two source databases
 using a client library for accessing the binlog in case of MySQL and reading from a logical replication stream in case of Postgres.
 
