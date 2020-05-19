@@ -1,5 +1,4 @@
 = {prodname} Connector for SQL Server
-:community:
 ifdef::community[]
 :toc:
 :toc-placement: macro
