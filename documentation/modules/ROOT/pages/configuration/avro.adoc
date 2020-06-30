@@ -121,7 +121,7 @@ In your environment, you might want to use a provided {prodname} container to de
 
 .Prerequisites
 
-* You have the cluster administrator access to an OpenShift cluster.
+* You have cluster administrator access to an OpenShift cluster.
 * You downloaded the {prodname} connector plug-in(s) that you want to deploy with Avro serialization.
 
 .Procedure
